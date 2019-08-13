@@ -1,11 +1,14 @@
 {
-  "name": "redux-persist",
+  "name": "@wouterds/redux-persist",
   "version": "5.10.1",
   "description": "persist and rehydrate redux stores",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "./src/index.d.ts",
-  "repository": "rt2zz/redux-persist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wouterds/redux-persist.git"
+  },
   "files": [
     "es",
     "src",
@@ -83,5 +86,13 @@
   "peerDependencies": {
     "redux": ">3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/rt2zz/redux-persist/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  }
 }
