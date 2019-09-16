@@ -1,5 +1,5 @@
 {
-  "name": "@wouterds/redux-persist",
+  "name": "@getdelta/redux-persist",
   "version": "5.10.1",
   "description": "persist and rehydrate redux stores",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
   "types": "./src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wouterds/redux-persist.git"
+    "url": "git+https://github.com/getdelta/redux-persist.git"
   },
   "files": [
     "es",
