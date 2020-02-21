@@ -1,11 +1,16 @@
 {
-  "name": "redux-persist",
-  "version": "6.0.0-pre2.1",
+  "name": "@getdelta/redux-persist",
+  "version": "5.10.2",
   "description": "persist and rehydrate redux stores",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "./types/index.d.ts",
-  "repository": "rt2zz/redux-persist",
+  "repository": {
+    "url": "https://github.com/getdelta/redux-persist"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "es",
     "src",
